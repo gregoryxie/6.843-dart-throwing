@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="dartboard.SLDPRT">
+  <link
+    name="dartboard">
+    <inertial>
+      <origin
+        xyz="0 0.01905 -1.16643755201581E-18"
+        rpy="0 0 0" />
+      <mass
+        value="6.0825" />
+      <inertia
+        ixx="0.078008"
+        ixy="-3.5306E-20"
+        ixz="-6.1846E-19"
+        iyy="0.15454"
+        iyz="-4.69600487353671E-18"
+        izz="0.078008" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="dartboard.obj" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="dartboard.obj" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

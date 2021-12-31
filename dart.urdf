@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="dart">
+  <link
+    name="dart">
+    <inertial>
+      <origin
+        xyz="-2.1263E-09 0.02 -1.46159999973443E-08"
+        rpy="0 0 0" />
+      <mass
+        value="0.0081586" />
+      <inertia
+        ixx="1.4619E-05"
+        ixy="-2.6395E-14"
+        ixz="-1.1456E-13"
+        iyy="3.5961E-07"
+        iyz="5.3385000873107E-14"
+        izz="1.4619E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="dart.obj" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="dart.obj" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
